@@ -85,7 +85,7 @@ pymysql.version_info=(1,4,6,"final",0)
 pymysql.install_as_MySQLdb()
 DATABASES = {
     'default': {
-        'ENGINE': 'dj_db_conn_pool.backends.mysql',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'test_db',
         'USER': 'lee',
         'PASSWORD': '515151',
