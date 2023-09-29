@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -118,12 +119,28 @@ celerybeat.pid
 
 # SageMath parsed files
 *.sage.py
+=======
+.env
+
+# pycharm proj file
+.idea/
+
+# vscode proj file
+.vscode
+
+# python cache
+__pycache__/
+
+# python egg
+*.log
+>>>>>>> e8f7bcf (初始化)
 
 # Environments
 .env
 .venv
 env/
 venv/
+<<<<<<< HEAD
 ENV/
 env.bak/
 venv.bak/
@@ -158,3 +175,6 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+ENV/
+>>>>>>> e8f7bcf (初始化)
